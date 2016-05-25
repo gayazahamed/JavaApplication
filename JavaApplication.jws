@@ -18,5 +18,6 @@
    </hash>
    <list n="listOfChildren">
       <hash><url n="URL" path="coreJava/coreJava.jpr"/></hash>
+      <hash><url n="URL" path="loggers/loggers.jpr"/></hash>
    </list>
 </jws:workspace>
