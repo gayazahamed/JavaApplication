@@ -1,0 +1,34 @@
+2016-04-04 14:03:46 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:03:51 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.TestLogger ||  || aaaaaaaaaaaaaaaa 
+2016-04-04 14:54:03 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:54:03 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.TestLogger ||  || aaaaaaaaaaaaaaaa 
+2016-04-04 14:54:03 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:55:02 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:55:02 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.TestLogger ||  || aaaaaaaaaaaaaaaa 
+2016-04-04 14:55:02 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:55:54 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:55:54 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.TestLogger ||  || aaaaaaaaaaaaaaaa 
+2016-04-04 14:55:54 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:56:54 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:56:54 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.TestLogger ||  || aaaaaaaaaaaaaaaa 
+2016-04-04 14:56:54 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:57:29 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:57:29 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:58:23 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:58:23 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:59:06 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:59:06 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 14:59:11 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 14:59:11 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
+2016-04-04 15:00:50 || INFO ||  ||  ||  || main ||  ||  ||  || loggers.Log4jPropertiesLoader ||  || 
+ Log4j properties initialized  
+2016-04-04 15:00:50 || INFO ||  ||  ||  || main ||  ||  ||  || file2 ||  || 11111111111 
