@@ -46,5 +46,9 @@ public class GenericsInMethod1 {
 
         System.out.println("\nArray characterArray contains:");
         printArray(charArray); // pass a Character array
+//        BoxPair<Integer, String> p1 = new OrderedPair<>(1, "apple");
+//        BoxPair<Integer, String> p2 = new OrderedPair<>(2, "pear");
+       // boolean same = GenericsInMethod1.<Integer, String>compare(p1, p2);
+        //System.out.println(same);
     }
 }
