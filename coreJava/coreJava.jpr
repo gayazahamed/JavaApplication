@@ -100,6 +100,7 @@
       <hash n="runConfigurationDefinitions">
          <hash n="Default">
             <value n="custom" v="false"/>
+            <value n="javaOptions" v=""/>
             <value n="name" v="Default"/>
          </hash>
       </hash>
@@ -111,6 +112,30 @@
       <list n="exportedReferences">
          <hash>
             <value n="id" v="Gson-2.6.2.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Activation.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Javax.mail_1.4.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSP Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-databind-2.9.0.pr1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-annotations-2.9.0.pr1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-core-2.8.7.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
@@ -125,11 +150,80 @@
                <value n="id" v="Gson-2.6.2.jar"/>
                <value n="locked" v="true"/>
             </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../../../../Oracle/Jdev11119/Middleware/jdeveloper/uddi/lib/activation.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Activation.jar"/>
+               <value n="id" v="Activation.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="../../../../Oracle/Jdev11119/Middleware/jdeveloper/webcenter/modules/oracle.webcenter.framework_11.1.1/javax.mail_1.4.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Javax.mail_1.4.jar"/>
+               <value n="id" v="Javax.mail_1.4.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jackson-databind-2.9.0.pr1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jackson-databind-2.9.0.pr1.jar"/>
+               <value n="id" v="Jackson-databind-2.9.0.pr1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jackson-annotations-2.9.0.pr1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jackson-annotations-2.9.0.pr1.jar"/>
+               <value n="id" v="Jackson-annotations-2.9.0.pr1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jackson-core-2.8.7.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jackson-core-2.8.7.jar"/>
+               <value n="id" v="Jackson-core-2.8.7.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
          </list>
       </hash>
       <list n="libraryReferences">
          <hash>
             <value n="id" v="Gson-2.6.2.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Activation.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Javax.mail_1.4.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSP Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-databind-2.9.0.pr1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-annotations-2.9.0.pr1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-core-2.8.7.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>

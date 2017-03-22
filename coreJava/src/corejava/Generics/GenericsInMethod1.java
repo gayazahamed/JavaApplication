@@ -1,5 +1,8 @@
 package corejava.Generics;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GenericsInMethod1 {
     public GenericsInMethod1() {
         super();
@@ -24,31 +27,45 @@ public class GenericsInMethod1 {
     //2.
 
 
-    public static <E> void printArray(E[] inputArray) {
-        // Display array elements
-        for (E element : inputArray) {
-            System.out.printf("%s ", element);
-        }
-        System.out.println();
-    }
+    //    public static <E> void printArray(E[] inputArray) {
+    //        // Display array elements
+    //        for (E element : inputArray) {
+    //            System.out.printf("%s ", element);
+    //        }
+    //        System.out.println();
+    //    }
+    //
+    //    public static void main(String[] args) {
+    //        // Create arrays of Integer, Double and Character
+    //        Integer[] intArray = { 1, 2, 3, 4, 5 };
+    //        Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
+    //        Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
+    //
+    //        System.out.println("Array integerArray contains:");
+    //        printArray(intArray); // pass an Integer array
+    //
+    //        System.out.println("\nArray doubleArray contains:");
+    //        printArray(doubleArray); // pass a Double array
+    //
+    //        System.out.println("\nArray characterArray contains:");
+    //        printArray(charArray); // pass a Character array
+    ////        BoxPair<Integer, String> p1 = new OrderedPair<>(1, "apple");
+    ////        BoxPair<Integer, String> p2 = new OrderedPair<>(2, "pear");
+    //       // boolean same = GenericsInMethod1.<Integer, String>compare(p1, p2);
+    //        //System.out.println(same);
+    //    }
+
+    //3.
+
 
     public static void main(String[] args) {
-        // Create arrays of Integer, Double and Character
-        Integer[] intArray = { 1, 2, 3, 4, 5 };
-        Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
-        Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
-
-        System.out.println("Array integerArray contains:");
-        printArray(intArray); // pass an Integer array
-
-        System.out.println("\nArray doubleArray contains:");
-        printArray(doubleArray); // pass a Double array
-
-        System.out.println("\nArray characterArray contains:");
-        printArray(charArray); // pass a Character array
-//        BoxPair<Integer, String> p1 = new OrderedPair<>(1, "apple");
-//        BoxPair<Integer, String> p2 = new OrderedPair<>(2, "pear");
-       // boolean same = GenericsInMethod1.<Integer, String>compare(p1, p2);
-        //System.out.println(same);
+        GenericsInMethod1 gen = new GenericsInMethod1();
+        gen.copy(new ArrayList());
     }
+
+
+    public <T extends List> void copy(T test) {
+        System.out.println("copy : " + test.size());
+    }
+
 }

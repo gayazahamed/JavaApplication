@@ -8,8 +8,26 @@ public class TestAll {
     public TestAll() {
         super();
     }
-
+    
     public static void main(String[] args) {
+        String str = null;
+        String str2 = "aaa";
+//        if(str.equalsIgnoreCase("a")) {
+//            System.out.println("hi");
+//        }
+//       
+//        if("a".equalsIgnoreCase(str)) {
+//            System.out.println("hi");
+//        }
+        
+        boolean b = str.equalsIgnoreCase(str2);
+        //boolean b = str2.equalsIgnoreCase(str);
+        System.out.println(b);
+        
+        System.out.println("kkkkkkkkkk");
+    }
+
+    public static void main5(String[] args) {
         // initializing unsorted int array
         int iArr[] = { 2, 1, 9, 88, 6, 4 };
         //int iArr[] = { 2, 1, 9, 6, 4 };

@@ -12,31 +12,43 @@ import javax.xml.bind.Unmarshaller;
 
 public class JAXBExample {
 
-    private static final String FILE_NAME =
-        "C:\\Users\\gshaik\\Desktop\\Log\\jaxb-emp.xml";
-
+    private static final String FILE_NAME = "jaxb-emp100.xml";
+    private static final String OUTPUT_FILE_NAME = "jaxb-emp-out.xml";
+    
+    
+    
     public static void main(String[] args) {
+
+
+        System.out.println("convet xml to object");
+        Employee empFromFile = jaxbXMLToObject();
+        System.out.println(empFromFile.toString());
+        System.out.println();
+        System.out.println("end main");
+    }
+
+    //object to xml
+
+    public static void main5(String[] args) {
         Employee emp = new Employee();
         emp.setId(1);
         emp.setAge(25);
         emp.setName("Gayaz");
         emp.setGender("Male");
-        emp.setRole("Developer");
+        emp.setRole("Developer10");
         emp.setPassword("sensitive");
+        System.out.println("convet object to xml");
 
         jaxbObjectToXML(emp);
-
-        Employee empFromFile = jaxbXMLToObject();
-        System.out.println(empFromFile.toString());
+        System.out.println();
     }
-
 
     private static Employee jaxbXMLToObject() {
         try {
             JAXBContext context = JAXBContext.newInstance(Employee.class);
             Unmarshaller un = context.createUnmarshaller();
-            Employee emp = (Employee)un.unmarshal(new File(FILE_NAME));
-            return emp;
+            Employee emp3 = (Employee)un.unmarshal(new File(FILE_NAME));
+            return emp3;
         } catch (JAXBException e) {
             e.printStackTrace();
         }
@@ -56,7 +68,7 @@ public class JAXBExample {
             // m.marshal(emp, System.out);
 
             // Write to File
-            m.marshal(emp, new File(FILE_NAME));
+            m.marshal(emp, new File(OUTPUT_FILE_NAME));
             System.out.println(asString(context, emp));
         } catch (JAXBException e) {
             e.printStackTrace();
